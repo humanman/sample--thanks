@@ -101,23 +101,9 @@ By the end of this tutorial, you will have a deeper understanding of how NEAR co
 ## Local Setup
 
 
-The `thanks` repo has several branches we will be using. The first branch, `getting-started`, is the bare bones project. It will have all of the files we need, but most of them will be empty. 
-
-The other branches you will find (including `getting-started`) are:
-
-1. `getting-started`
-2. `functions/empty` & `functions/solution`
-3. `refactoring/empty` & `refactoring/solution`
-4. `testing/empty` & `testing/solution`
-5. `scripts/empty` & `scripts/solution`
+The `thanks` repo has several branches, but we will only be using `getting-started`  as this is the bare bones project. It will have all of the files we need, but most of them will be empty. If you get stuck or too excite to wait, the complete code (refactored) is in the `main` branch.
 
 <br/>
-
-Do you see a pattern? Several of the "major" sections of this tutorial have corresponding branches in the `thanks` repo. 
-
-We will be reviewing the completed code in the `/solution` branches, but you are encouraged to use the `/empty` branches to build the logic for this project on your own. 
-
-The branches `main` and `scripts/solution` will have the complete code from every section in case you get stuck putting it all together. 
 
 As always, you can build everything from scratch using the below terminal command:
 
@@ -571,11 +557,11 @@ Furthermore, every _call_ function may have its own decorator, `@mutateState()`,
 
 Feel free to experiment with decorators. They are more or less annotations to help _AssemblyScript_ properly compile and run your code.
 
-Switch to the `refactoring/solution` branch, and take a few minutes to review the code. 
+Switch to the `main` branch, and take a few minutes to review the code. 
 
 It should be complete with all necessary contract methods nicely put together in easy-to-read classes. Your constants have been moved to `utils.ts`. Your helper classes have been moved to `model.ts`, and other helper methods have been converted to private class methods. Pretty nifty, huh?
 
-If you want to refactor what we've done so far yourself then go nuts! You can work in the branch, `functions/solution`, which looks like spaghetti, but will run. Or you can start with `refactoring/empty` if you want to start with something cleaner.
+Feel free to create a branch and refactor on your own. There are loads of contracts out there that would benefit from refactoring. See what you can do.
 
 Our contracts are singleton and ready to mingleton!
 
@@ -854,7 +840,7 @@ When you're ready to switch over from a dev contract account to a permanent one 
 
 Let's make our lives a bit easier and gather our CLI commands.
 
-Switch to the `scripts/solution` branch, and review the contents of the `scripts/` directory. 
+Review the contents of the `scripts/` directory. 
 
 Scripts like these are great organizational tools to help you and others interact with your code. 
 
